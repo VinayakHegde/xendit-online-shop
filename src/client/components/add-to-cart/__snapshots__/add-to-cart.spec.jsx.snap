@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToCart - disabled should render without crash 1`] = `
+<div>
+  <button
+    class="Button AddToCart ProductDetails__button"
+    disabled=""
+    title="Add to cart"
+    type="button"
+  >
+    Add to cart
+  </button>
+</div>
+`;
+
+exports[`AddToCart - enabled should render without crash 1`] = `
+<div>
+  <button
+    class="Button AddToCart ProductDetails__button"
+    title="Add to cart"
+    type="button"
+  >
+    Add to cart
+  </button>
+</div>
+`;
