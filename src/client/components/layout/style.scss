@@ -1,0 +1,11 @@
+.Layout{
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px;
+    &__logo {
+      text-align: center;
+    }
+  }
+}
