@@ -1,0 +1,38 @@
+.ProductList {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: auto  1fr auto;
+  &__wrapper {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+    padding: 0;
+  }
+  &__item {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 100px 200px 1fr;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 20px;
+    &__image{
+      width: 100px;
+    }
+    &__info {
+      &:nth-child(2) {
+        display: grid;
+        gap: 5px;
+        grid-template-rows: auto 1fr auto;
+      }
+      &__description {
+        text-align: justify;
+      }
+    }
+  }
+  &__cart__action {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    text-align: right;
+    gap: 20px;
+}
+}
