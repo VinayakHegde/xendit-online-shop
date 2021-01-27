@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThankYou should render without crash 1`] = `
+<div>
+  <div
+    class="ThankYou"
+  >
+    <div
+      class="ThankYou__container"
+    >
+      <img
+        alt="success"
+        class="ThankYou__image"
+        src="/images/success.svg"
+      />
+      <img
+        alt="thank-you"
+        class="ThankYou__image"
+        src="/images/thank-you.svg"
+      />
+      <p
+        class="ThankYou__message"
+      >
+        <span>
+          Your order has been successfully placed.
+        </span>
+      </p>
+      <a
+        class="button"
+        href="/"
+      >
+        <button
+          class="Button undefined"
+          title="Return Home"
+          type="button"
+        >
+          Return Home
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;
