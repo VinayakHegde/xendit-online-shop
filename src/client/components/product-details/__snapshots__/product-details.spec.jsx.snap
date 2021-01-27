@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList with default stock should render without crash 1`] = `
+<div>
+  <section
+    class="ProductDetails"
+  >
+    <div
+      class="ProductDetails__info"
+    >
+      <img
+        alt=""
+        class="ProductDetails__image"
+        src="/images/sunglasses.png"
+      />
+      <div
+        class="ProductDetails__info__price"
+      >
+        <span
+          class="ProductDetails__label"
+        >
+          Price
+          : 
+        </span>
+        <span
+          class="ProductDetails__price"
+        >
+          9299
+        </span>
+      </div>
+      <button
+        class="Button AddToCart ProductDetails__button"
+        title="Add to cart"
+        type="button"
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      class="ProductDetails__info"
+    >
+      <h2
+        class="ProductDetails__name"
+      >
+        Sunglass
+      </h2>
+      <div
+        class="ProductDetails__info__description"
+      >
+        Sunglasses or sun glasses (informally called shades or sunnies) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes. They can sometimes also function as a visual aid, as variously termed spectacles or glasses exist, featuring lenses that are colored, polarized or darkened. In the early 20th century, they were also known as sun cheaters
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ProductList with low stock should render without crash 1`] = `
+<div>
+  <section
+    class="ProductDetails"
+  >
+    <div
+      class="ProductDetails__info"
+    >
+      <img
+        alt=""
+        class="ProductDetails__image"
+        src="/images/sunglasses.png"
+      />
+      <div
+        class="ProductStock__low"
+      >
+        <small>
+          only 
+          2
+           left
+        </small>
+      </div>
+      <div
+        class="ProductDetails__info__price"
+      >
+        <span
+          class="ProductDetails__label"
+        >
+          Price
+          : 
+        </span>
+        <span
+          class="ProductDetails__price"
+        >
+          9299
+        </span>
+      </div>
+      <button
+        class="Button AddToCart ProductDetails__button"
+        title="Add to cart"
+        type="button"
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      class="ProductDetails__info"
+    >
+      <h2
+        class="ProductDetails__name"
+      >
+        Sunglass
+      </h2>
+      <div
+        class="ProductDetails__info__description"
+      >
+        Sunglasses or sun glasses (informally called shades or sunnies) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes. They can sometimes also function as a visual aid, as variously termed spectacles or glasses exist, featuring lenses that are colored, polarized or darkened. In the early 20th century, they were also known as sun cheaters
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`ProductList with out of stock should render without crash 1`] = `
+<div>
+  <section
+    class="ProductDetails"
+  >
+    <div
+      class="ProductDetails__info"
+    >
+      <img
+        alt=""
+        class="ProductDetails__image"
+        src="/images/sunglasses.png"
+      />
+      <div
+        class="ProductStock__outofstock"
+      >
+        <small>
+          out of stock
+        </small>
+      </div>
+      <div
+        class="ProductDetails__info__price"
+      >
+        <span
+          class="ProductDetails__label"
+        >
+          Price
+          : 
+        </span>
+        <span
+          class="ProductDetails__price"
+        >
+          9299
+        </span>
+      </div>
+      <button
+        class="Button AddToCart ProductDetails__button"
+        disabled=""
+        title="Add to cart"
+        type="button"
+      >
+        Add to cart
+      </button>
+    </div>
+    <div
+      class="ProductDetails__info"
+    >
+      <h2
+        class="ProductDetails__name"
+      >
+        Sunglass
+      </h2>
+      <div
+        class="ProductDetails__info__description"
+      >
+        Sunglasses or sun glasses (informally called shades or sunnies) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes. They can sometimes also function as a visual aid, as variously termed spectacles or glasses exist, featuring lenses that are colored, polarized or darkened. In the early 20th century, they were also known as sun cheaters
+      </div>
+    </div>
+  </section>
+</div>
+`;
