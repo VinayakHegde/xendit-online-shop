@@ -1,0 +1,19 @@
+.MiniCart {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  align-items: center;
+  &__icon {
+    height: 30px;
+  }
+  &__count {
+    height: 22px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 50%;
+    &--noLink {
+      background-color: white;
+    }
+  }
+
+}
