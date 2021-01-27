@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button - disabled should render without crash 1`] = `
+<div>
+  <button
+    class="Button My__button"
+    disabled=""
+    title="Click me"
+    type="button"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Button - enabled should render without crash 1`] = `
+<div>
+  <button
+    class="Button My__button"
+    title="Click me"
+    type="button"
+  >
+    Click me
+  </button>
+</div>
+`;
